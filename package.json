@@ -1,11 +1,18 @@
 {
-  "name": "testing",
+  "name": "popular-topics",
   "version": "1.0.0",
-  "description": "This is a test file",
+  "description": "REST API for popular topics",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
-  "author": "Abijith",
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
